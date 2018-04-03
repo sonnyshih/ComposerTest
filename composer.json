@@ -4,7 +4,6 @@
     "license": "proprietary",
     "minimum-stability": "stable",
     "require": {
-        "nesbot/carbon": "^1.25"
     },
     "autoload":{
         "psr-4":{
@@ -12,6 +11,9 @@
         },
         "classmap":[
             "libs"
+        ],
+        "files": [
+            "helpers/my-functions.php"
         ]
     }
 }
